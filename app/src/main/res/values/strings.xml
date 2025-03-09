@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tugas2</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="buttonregister">Register</string>
+    <string name="login">Login</string>
+    <string name="forgotpass">Lupa Password?</string>
+    <string name="username">Username</string>
+    <string name="FrgPssEml">Masukkan E-Mail</string>
+    <string name="resetpassword">Reset Password</string>
+</resources>
