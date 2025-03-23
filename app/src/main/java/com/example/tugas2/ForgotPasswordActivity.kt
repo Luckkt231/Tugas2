@@ -8,13 +8,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.tugas2.databinding.ActivityForgotPasswordBinding
-import com.example.tugas2.databinding.ActivityLoginBinding
 
 class ForgotPasswordActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityForgotPasswordBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -35,7 +30,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         val kontak: TextView = findViewById(R.id.kontak)
 
         kontak.setOnClickListener {
-            val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:08123456789"))
+            Intent(Intent.ACTION_DIAL, Uri.parse("tel:08123456789"))
             startActivity(Intent(Intent.ACTION_DIAL, Uri.parse("tel:08123456789")))
         }
     }
