@@ -9,4 +9,9 @@
     <string name="username">Username</string>
     <string name="FrgPssEml">Masukkan E-Mail</string>
     <string name="resetpassword">Reset Password</string>
+    <string name="punyaakun">Punya Akun?</string>
+    <string name="beranda">Beranda</string>
+    <string name="luckkt">Luckkt</string>
+    <string name="kontak">Kontak Nomor Pemilik</string>
+    <string name="sdh">"Sudah Punya Akun?</string>
 </resources>
