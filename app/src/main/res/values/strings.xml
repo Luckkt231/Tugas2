@@ -14,4 +14,12 @@
     <string name="luckkt">Luckkt</string>
     <string name="kontak">Kontak Nomor Pemilik</string>
     <string name="sdh">"Sudah Punya Akun?</string>
+    <string name="img">Image</string>
+    <string name="phl">Nama Pahlawan</string>
+    <string name="asl">Asal</string>
+    <string name="tugas3">Tugas 3</string>
+    <string name="tugas4">Tugas 4</string>
+    <string name="mobilecom">Mobile Computing</string>
+    <string name="namapnj">Galih Daniel Wicaksono</string>
+    <string name="npm">23411033</string>
 </resources>
