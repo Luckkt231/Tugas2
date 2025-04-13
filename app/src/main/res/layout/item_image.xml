@@ -12,16 +12,19 @@
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/_image"
             android:layout_width="419dp"
             android:layout_height="149dp"
+            android:layout_above="@+id/_imagetitle"
+            android:contentDescription="@string/img"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="7dp"
-            android:layout_marginEnd="0dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
             android:scaleType="centerCrop"
             tools:srcCompat="@tools:sample/avatars" />
 
@@ -29,13 +32,13 @@
             android:id="@+id/_imagetitle"
             android:layout_width="69dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="176dp"
             android:layout_marginEnd="181dp"
             android:layout_marginBottom="7dp"
-            android:text="TextView" />
+            android:gravity="center"
+            android:text="@string/img" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
