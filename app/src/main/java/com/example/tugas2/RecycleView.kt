@@ -35,6 +35,11 @@ class RecycleView : AppCompatActivity() {
         kerajaanAdapter = MyAdapter(listKerajaan)
         kerajaanRecyclerView.adapter = kerajaanAdapter
 
+        val deskripsi = findViewById<RecyclerView>(R.id.kerajaan)
+        deskripsi.setOnClickListener {
+            val intent = Intent(this, DetailActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 
