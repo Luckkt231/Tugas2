@@ -1,5 +1,7 @@
 package com.example.tugas2
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +12,7 @@ class RecycleView : AppCompatActivity() {
     private lateinit var kerajaanRecyclerView: RecyclerView
     private lateinit var kerajaanAdapter: MyAdapter
     private lateinit var listKerajaan: ArrayList<ItemData>
+    @SuppressLint("CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -33,4 +36,7 @@ class RecycleView : AppCompatActivity() {
         kerajaanRecyclerView.adapter = kerajaanAdapter
 
     }
+
+
+
 }

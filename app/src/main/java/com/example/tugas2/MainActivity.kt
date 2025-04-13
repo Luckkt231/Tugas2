@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -22,6 +23,13 @@ class MainActivity : AppCompatActivity() {
         tugas4.setOnClickListener {
             val intentHome = Intent(this, RecycleView::class.java)
             startActivity(intentHome)
+        }
+
+        val tugas5 = findViewById<Button>(R.id.button5)
+        tugas5.setOnClickListener {
+            val intentHome = Intent(this, MainActivity2::class.java)
+            startActivity(intentHome)
+
         }
     }
 }
