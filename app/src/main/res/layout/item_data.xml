@@ -3,19 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginHorizontal="10dp"
     android:layout_marginVertical="15dp"
     app:cardCornerRadius="20dp"
     app:cardElevation="10dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="16dp">
+        android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageview2"
+            android:id="@+id/imagekrj"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginStart="8dp"
@@ -26,31 +25,39 @@
             app:layout_constraintEnd_toStartOf="@+id/namakrj"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
+
         </ImageView>
 
         <TextView
             android:id="@+id/namakrj"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="104dp"
             android:layout_marginTop="16dp"
             android:text="@string/phl"
             android:textSize="15sp"
-            app:layout_constraintStart_toEndOf="@+id/imageview2"
+            app:layout_constraintStart_toEndOf="@+id/imagekrj"
             app:layout_constraintTop_toTopOf="parent">
+
         </TextView>
 
         <TextView
             android:id="@+id/asalkrj"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="15dp"
-            android:text="@string/asl"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="39dp"
+            android:text=""
             android:textSize="11sp"
-            app:layout_constraintStart_toEndOf="@+id/imageview2"
+            app:layout_constraintStart_toEndOf="@+id/imagekrj"
             app:layout_constraintTop_toBottomOf="@+id/namakrj">
-        </TextView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
+        </TextView>
+
+
+    </RelativeLayout>
 </androidx.cardview.widget.CardView>

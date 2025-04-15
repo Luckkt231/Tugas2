@@ -24,12 +24,5 @@ class MainActivity : AppCompatActivity() {
             val intentHome = Intent(this, RecycleView::class.java)
             startActivity(intentHome)
         }
-
-        val tugas5 = findViewById<Button>(R.id.button5)
-        tugas5.setOnClickListener {
-            val intentHome = Intent(this, MainActivity2::class.java)
-            startActivity(intentHome)
-
-        }
     }
 }

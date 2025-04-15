@@ -19,9 +19,6 @@
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".deskrpsi"
-            android:exported="false" />
-        <activity
             android:name=".RecycleView"
             android:exported="false" />
         <activity
