@@ -23,4 +23,10 @@
     <string name="namapnj">Galih Daniel Wicaksono</string>
     <string name="npm">23411033</string>
     <string name="tugas5">Tugas 5</string>
+    <string name="profil">Galih Daniel Wicaksono lahir di Jayapura,
+        Papua pada tanggal 17 September 2005. Ia merupakan alumni
+        dari SD Kristen Baik, SMP YPPK Bonaventura, dan SMA Negeri 1 Sentani.
+        Saat ini, Galih sedang menempuh pendidikan di USTJ.
+        Aplikasi ini dibuat sebagai bagian dari tugas Ujian Tengah Semester (UTS).</string>
+    <string name="prof">Profil</string>
 </resources>
