@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044951208470",
+    "project_id": "luckkt0905",
+    "storage_bucket": "luckkt0905.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044951208470:android:13090c7f921b1ad15f9b37",
+        "android_client_info": {
+          "package_name": "com.example.tugas2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf8Gsx5gR8a7rG_qRGcc8WfCsrqKllzJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

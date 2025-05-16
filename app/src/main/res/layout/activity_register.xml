@@ -31,10 +31,11 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView3"
         android:layout_width="match_parent"
+
+
         android:layout_height="671dp"
-
-
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -60,7 +61,7 @@
                 android:id="@+id/btreg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="88dp"
+                android:layout_marginTop="140dp"
                 android:text="@string/buttonregister"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.503"
@@ -76,6 +77,23 @@
                 android:autofillHints="Password"
                 android:ems="10"
                 android:hint="@string/password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#546E7A"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextText"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="68dp"
+                android:autofillHints="Password"
+                android:ems="10"
+                android:hint="@string/cnfrmpass"
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:textColorHint="#546E7A"
@@ -108,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="103dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="76dp"
                 android:layout_marginEnd="250dp"
                 android:clickable="true"
                 android:focusable="true"
@@ -143,9 +161,10 @@
                 android:id="@+id/bottom_navigation"
                 android:layout_width="411dp"
                 android:layout_height="139dp"
-                android:layout_marginTop="96dp"
+                android:layout_marginTop="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/kontak"
                 app:menu="@menu/menu_bottom_navigation" />

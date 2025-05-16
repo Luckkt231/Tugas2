@@ -70,6 +70,12 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Logout Click", Toast.LENGTH_SHORT).show()
                 true
             }
+
+            R.id.login -> {
+                val intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+                true
+            }
             else -> {
                 super.onOptionsItemSelected(item)
             }

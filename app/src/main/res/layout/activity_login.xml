@@ -137,13 +137,11 @@
                 android:layout_marginStart="178dp"
                 android:layout_marginTop="9dp"
                 android:layout_marginEnd="181dp"
-                android:layout_marginBottom="4dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:minHeight="48dp"
                 android:text="@string/beranda"
                 android:textColor="@color/blue"
-                app:layout_constraintBottom_toTopOf="@+id/kontak"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -151,11 +149,31 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
+                android:id="@+id/branda2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="181dp"
+                android:layout_marginBottom="9dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="48dp"
+                android:text="@string/register"
+                android:textColor="@color/blue"
+                app:layout_constraintBottom_toTopOf="@+id/kontak"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/branda"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
                 android:id="@+id/kontak"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="135dp"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="9dp"
                 android:layout_marginEnd="136dp"
                 android:clickable="true"
                 android:focusable="true"
@@ -165,13 +183,13 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/branda" />
+                app:layout_constraintTop_toBottomOf="@+id/branda2" />
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottom_navigation"
                 android:layout_width="396dp"
                 android:layout_height="127dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="60dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
